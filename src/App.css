@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.container{
+  width:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+}
+.input-box{
+  width:400px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.input-label{
+  font-size:16px;
+  font-family: serif;
+  margin-bottom: 2px;
+}
+
+.btns{
+  text-align: center;
+  height: 40px;
+  border:0px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: rgb(87, 161, 221);
+}
+
+.ul{
+  padding: 40px;
+}
+
+.home{
+  padding: 40px;
+}
